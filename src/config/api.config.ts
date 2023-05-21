@@ -6,10 +6,10 @@ interface AzureAdConfig {
 }
 
 const azureAdConfig: AzureAdConfig = {
-    clientId: window['AzureAd'].clientId,
-    scopes: window['AzureAd'].scopes,
-    authority: window['AzureAd'].authority,
-    redirectUrl: window['AzureAd'].redirectUrl,
+    clientId: null,
+    scopes: null,
+    authority: null,
+    redirectUrl:null,
 };
 
 export const AzureAdConfig = azureAdConfig;

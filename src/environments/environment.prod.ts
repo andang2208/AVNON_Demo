@@ -6,7 +6,7 @@ import { AzureAdConfig } from 'src/config/api.config';
 
 export const environment = {
     production: true,
-    apiBaseUrl: window['apiUrl'],
+    apiBaseUrl: '',
 
     adClientId: AzureAdConfig.clientId,
     adScopes: AzureAdConfig.scopes,
